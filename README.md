@@ -25,8 +25,10 @@ The program sends a JSON object to the MQTT broker every 10 seconds:
 ## Tests
 
 Power profile:
-Current transformer: 10mV=mA;
+Current transformer: 10mV=1mA;
+
 V(avg)=729mV ----- = 72mA(avg) for sending data(200 bajt) and connect to WI-FI;
+
 Duration of the transfer = 6s;
 
 Deep sleep = 10uA;
