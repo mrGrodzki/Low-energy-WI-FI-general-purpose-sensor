@@ -1,16 +1,5 @@
 # Low-energy-WI-FI-general-purpose-sensor
-Testing the possibility of long-term operation of the general-purpose sensor with battery power and publishing information on mqtt broker
-
-## HW
-
-Schematics:
-
-![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/schematicPowTestPar1.png)
-
-![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/schematicPowTestPar2.png)
-
-
-![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/powTest_v1.jpg)
+Testing the possibility of long-term operation of the general-purpose sensor with battery power and publishing information on mqtt broker.
 
 ## SW
 
@@ -33,7 +22,6 @@ The program sends a JSON object to the MQTT broker every 10 seconds:
   "scrtStan":false
  }
 ```
-
 ## Tests
 
 Power profile:
@@ -47,5 +35,20 @@ Deep sleep = 10uA;
 
 
 ![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/Test/PowerProfile.png)
+
+
+## HW
+
+Schematics:
+
+![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/schematicPowTestPar1.png)
+
+![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/schematicPowTestPar2.png)
+
+
+![Alt Text](https://github.com/mrGrodzki/Low-energy-WI-FI-general-purpose-sensor/blob/main/HW/powTest_v1.jpg)
+
+
+
 
 
